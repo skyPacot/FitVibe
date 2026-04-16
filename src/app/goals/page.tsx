@@ -129,7 +129,7 @@ export default function GoalsPage() {
 
           <input
             type="date"
-            onChange={(e) => setTargetDate(+e.target.value)}
+            onChange={(e) => setTargetDate(e.target.value)}
             className="w-full p-3 border rounded-lg mb-3"
           />
 
