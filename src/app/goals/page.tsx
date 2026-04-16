@@ -92,7 +92,7 @@ import { addDoc, collection } from "firebase/firestore";
 
 export default function GoalsPage() {
   const [goalName, setGoalName] = useState("");
-  const [targetDate, setTargetdate] = useState("");
+  const [targetDate, setTargetDate] = useState("");
 
   const addGoal = async () => {
     const user = auth.currentUser;
@@ -105,7 +105,7 @@ export default function GoalsPage() {
     });
 
     setGoalName("");
-    setTargetdate("");
+    setTargetDate("");
   };
 
   return (
