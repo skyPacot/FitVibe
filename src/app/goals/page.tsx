@@ -105,7 +105,7 @@ export default function GoalsPage() {
     });
 
     setGoalName("");
-    setProgress(0);
+    setTargetdate("");
   };
 
   return (
